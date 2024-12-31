@@ -19,7 +19,7 @@ let package = Package(
             targets: ["SwiftSH"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/DimaRU/Libssh2Prebuild.git", exact: "1.11.0-OpenSSL-1-1-1w")
+        .package(name: "CSSH", url: "https://github.com/DimaRU/Libssh2Prebuild.git", exact: "1.11.0-OpenSSL-1-1-1w")
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
